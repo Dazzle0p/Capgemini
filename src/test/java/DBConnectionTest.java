@@ -13,6 +13,8 @@ class DBConnectionTest {
             // Check connection is valid
             assertTrue(connection.isValid(2));
 
+            System.out.println("Database Connected Successfully");
+
         } catch (Exception e) {
             fail("Connection failed: " + e.getMessage());
         }
