@@ -14,6 +14,7 @@ public class DBConnection {
         Connection connection = null;
         try{
             connection = ds.getConnection();
+            System.out.println("Database connected");
         }catch (SQLException e){
             e.printStackTrace();
         }
