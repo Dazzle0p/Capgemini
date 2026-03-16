@@ -7,6 +7,10 @@
     <groupId>org.sushant</groupId>
     <artifactId>Capgemini</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>CapgeminiROot</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>24</maven.compiler.source>
